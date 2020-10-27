@@ -6,6 +6,8 @@ Not balance tested.
 
 Inspired by https://github.com/YASUYASUYASUYASU/magiclysm_addon.
 
+(Pariah's Note: My branch didn't change any information here, just combined NEricN's mod with an English translation of YASUYASUYASUYASU's original mod. The translation is via Google Translate, so expect some...oddities.)
+
 ## Installation
 
 1. Download this file as a zip.
