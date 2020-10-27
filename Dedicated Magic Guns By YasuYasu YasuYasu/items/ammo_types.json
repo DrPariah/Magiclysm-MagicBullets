@@ -1,0 +1,43 @@
+[{
+		"type": "ammunition_type",
+		"id": "22_magic",
+		"name": "Woonum Mana Cartridge",
+		"default": "22_magic"
+	},
+	{
+		"type": "ammunition_type",
+		"id": "38_magic",
+		"name": "Duo exclusive mana cartridge",
+		"default": "38_magic"
+	},
+	{
+		"type": "ammunition_type",
+		"id": "9x19_magic",
+		"name": "Tria Mana Cartridge",
+		"default": "9x19_magic"
+	},
+	{
+		"type": "ammunition_type",
+		"id": "40_magic",
+		"name": "Quatuol Mana Cartridge",
+		"default": "40_magic"
+	},
+	{
+		"type": "ammunition_type",
+		"id": "44_magic",
+		"name": "Queen Que Mana Cartridge",
+		"default": "44_magic"
+	},
+	{
+		"type": "ammunition_type",
+		"id": "45_magic",
+		"name": "Sex-only mana cartridge",
+		"default": "45_magic"
+	},
+	{
+		"type": "ammunition_type",
+		"id": "454_magic",
+		"name": "Septum Mana Cartridge",
+		"default": "454_magic"
+	}
+]

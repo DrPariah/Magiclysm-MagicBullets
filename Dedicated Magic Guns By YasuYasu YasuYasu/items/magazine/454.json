@@ -1,0 +1,15 @@
+[{
+	"id": "454_magic_speedloader5",
+	"type": "MAGAZINE",
+	"name": "Septum Speedloader [MA]",
+	"description": "A speed loader for the Septem pistol dedicated to mana cartridges. This allows for quick reloads.",
+	"weight": "64 g",
+	"volume": "250 ml",
+	"price": 600,
+	"material": "steel",
+	"symbol": "#",
+	"color": "light_gray",
+	"ammo_type": "454_magic",
+	"capacity": 5,
+	"flags": ["SPEEDLOADER"]
+}]

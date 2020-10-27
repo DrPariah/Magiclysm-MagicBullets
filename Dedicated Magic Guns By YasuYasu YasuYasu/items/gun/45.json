@@ -1,0 +1,38 @@
+{
+	"id": "magic_revolver_ver5",
+	"copy-from": "pistol_revolver",
+	"looks_like": "sw_619",
+	"type": "GUN",
+	"name": "Mana Cartridge Handgun Queen Que [MA]",
+	"extend": {
+		"flags": ["MAGIC_FOCUS"]
+	},
+	"name_plural": "magic_revolver_ver5",
+	"description": "Queen Que, a manna cartridge pistol designed for wizards. It's quite powerful, but don't overconfidence, be careful not to run out of bullets.",
+	"weight": "1386 g",
+	"volume": "750 ml",
+	"price": 56100,
+	"to_hit": -2,
+	"bashing": 10,
+	"material": ["steel", "wood", "copper", "silver", "gold"],
+	"symbol": "(",
+	"color": "dark_gray",
+	"ammo": "45_magic",
+	"dispersion": 280,
+	"durability": 8,
+	"clip_size": 6,
+	"magazines": [
+		["45_magic", ["45_magic_speedloader6"]]
+	],
+	"valid_mod_locations": [
+		["accessories", 2],
+		["barrel", 1],
+		["bore", 1],
+		["grip", 1],
+		["mechanism", 4],
+		["rail", 1],
+		["sights", 1],
+		["stock", 1],
+		["underbarrel", 1]
+	]
+}

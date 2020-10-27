@@ -1,0 +1,15 @@
+[{
+	"id": "40_magic_speedloader6",
+	"type": "MAGAZINE",
+	"name": "Quattoor dedicated speed loader [MA]",
+	"description": "It is a speed loader of Quattoor, a pistol dedicated to mana cartridge bullets. By using this, you can reload quickly.",
+	"weight": "64 g",
+	"volume": "250 ml",
+	"price": 600,
+	"material": "steel",
+	"symbol": "#",
+	"color": "light_gray",
+	"ammo_type": "40_magic",
+	"capacity": 6,
+	"flags": ["SPEEDLOADER"]
+}]

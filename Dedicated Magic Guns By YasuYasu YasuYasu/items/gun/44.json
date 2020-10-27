@@ -1,0 +1,40 @@
+  {
+	"id": "magic_revolver_ver6",
+	"copy-from": "pistol_revolver",
+	"looks_like": "sw_619",
+	"type": "GUN",
+	"name": "Mana Cartridge Handgun Sex [MA]",
+	"extend": {
+		"flags": ["MAGIC_FOCUS"]
+	},
+	"name_plural": "magic_revolver_ver6",
+	"description": "A pistol for manna cartridges designed for wizards. It's a gun that can only be used by skilled wizards, and its power is also with origami.",
+	"weight": "1200 g",
+	"volume": "1 L",
+	"price": 60000,
+	"to_hit": -3,
+	"bashing": 12,
+	"material": ["steel", "wood", "copper", "silver", "gold", "platinum"],
+	"symbol": "(",
+	"color": "dark_gray",
+	"ammo": "44_magic",
+	"ranged_damage": 2,
+	"dispersion": 620,
+	"durability": 7,
+	"loudness": 25,
+	"clip_size": 6,
+	"magazines": [
+		["44_magic", ["44_magic_speedloader6"]]
+	],
+	"valid_mod_locations": [
+		["accessories", 2],
+		["barrel", 1],
+		["bore", 1],
+		["grip", 1],
+		["mechanism", 4],
+		["rail", 1],
+		["sights", 1],
+		["stock", 1],
+		["underbarrel", 1]
+	]
+}

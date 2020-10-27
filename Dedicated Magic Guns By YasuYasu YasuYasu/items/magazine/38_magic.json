@@ -1,0 +1,16 @@
+[{
+     "id": "38_magic_speedloader6",
+     "type": "MAGAZINE",
+     "name": "Duo exclusive speed loader [MA]",
+     "description": "A speed loader for the duo of pistols dedicated to mana cartridges. This allows for quick reloads."
+     "weight": "64 g",
+     "volume": "250 ml",
+     "price": 600,
+     "material": "steel",
+     "symbol": "#",
+     "color": "light_gray",
+     "ammo_type": "38_magic",
+     "capacity": 6,
+     "flags": ["SPEEDLOADER"]
+   }
+]

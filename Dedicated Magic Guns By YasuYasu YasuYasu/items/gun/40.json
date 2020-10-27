@@ -1,0 +1,39 @@
+{
+	"id": "magic_revolver_ver4",
+	"copy-from": "pistol_revolver",
+	"looks_like": "sw_619",
+	"type": "GUN",
+	"name": "Mana Cartridge Handgun Quattuol [MA]",
+	"extend": {
+		"flags": ["MAGIC_FOCUS"]
+	},
+	"name_plural": "magic_revolver_ver4",
+	"description": "Quattuol, a pistol dedicated to manna cartridges designed for wizards. Further modifications to Tria allow for more powerful mana cartridges.",
+	"weight": "1200 g",
+	"volume": "500 ml",
+	"price": 44000,
+	"to_hit": -2,
+	"bashing": 10,
+	"material": ["steel", "wood", "copper", "silver"],
+	"symbol": "(",
+	"color": "dark_gray",
+	"ammo": ["40_magic"],
+	"ranged_damage": 1,
+	"dispersion": 320,
+	"durability": 8,
+	"clip_size": 6,
+	"magazines": [
+		["40_magic", ["40_magic_speedloader6"]]
+	],
+	"valid_mod_locations": [
+		["accessories", 2],
+		["barrel", 1],
+		["bore", 1],
+		["grip", 1],
+		["mechanism", 4],
+		["rail", 1],
+		["sights", 1],
+		["stock", 1],
+		["underbarrel", 1]
+	]
+}

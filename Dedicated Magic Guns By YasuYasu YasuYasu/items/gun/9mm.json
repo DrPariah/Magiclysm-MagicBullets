@@ -1,0 +1,39 @@
+  {
+	"id": "magic_revolver_ver3",
+	"copy-from": "pistol_revolver",
+	"looks_like": "sw_619",
+	"type": "GUN",
+	"name": "Mana Cartridge Handgun Tria [MA]",
+	"extend": {
+		"flags": ["MAGIC_FOCUS"]
+	},
+	"name_plural": "magic_revolver_ver3",
+	"description": "Tria is a manna cartridge pistol designed for wizards. If you can master it, you will be a full-fledged wizard.",
+	"weight": "935 g",
+	"volume": "500 ml",
+	"price": 30000,
+	"to_hit": -2,
+	"bashing": 8,
+	"material": ["steel", "wood", "copper"],
+	"symbol": "(",
+	"color": "dark_gray",
+	"ammo": "9x19_magic",
+	"range": 1,
+	"dispersion": 340,
+	"durability": 9,
+	"clip_size": 6,
+	"magazines": [
+		["9x19_magic", ["9mm_magic_speedloader6"]]
+	],
+	"valid_mod_locations": [
+		["accessories", 2],
+		["barrel", 1],
+		["bore", 1],
+		["grip", 1],
+		["mechanism", 4],
+		["rail", 1],
+		["sights", 1],
+		["stock", 1],
+		["underbarrel", 1]
+	]
+}

@@ -1,0 +1,15 @@
+[{
+	"id": "44_magic_speedloader6",
+	"type": "MAGAZINE",
+	"name": "Sex dedicated speed loader [MA]",
+	"description": "This is a speed loader for the pistol sex for mana cartridges. You can use it to reload quickly.",
+	"weight": "64 g",
+	"volume": "250 ml",
+	"price": 600,
+	"material": "steel",
+	"symbol": "#",
+	"color": "light_gray",
+	"ammo_type": "44_magic",
+	"capacity": 6,
+	"flags": ["SPEEDLOADER"]
+}]

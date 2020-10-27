@@ -1,0 +1,149 @@
+[{
+		"id": "45_magic",
+		"type": "AMMO",
+		"name": {
+			"str": "Queen Que Mana Cartridge [MA]"
+		},
+		"description": "A special cartridge for the mana cartridge pistol Queen Que. This cartridge contains magical power.",
+		"weight": "13 g",
+		"volume": "250 ml",
+		"price": 175,
+		"price_postapoc": 2900,
+		"material": ["brass", "powder"],
+		"symbol": "=",
+		"color": "light_gray",
+		"count": 5,
+		"stack_size": 5,
+		"ammo_type": "45_magic",
+		"range": 16,
+		"damage": 30,
+		"pierce": 3,
+		"dispersion": 50,
+		"recoil": 600,
+		"effects": ["COOKOFF"]
+	},
+	{
+		"id": "45_magic_magus",
+		"copy-from": "45_magic",
+		"type": "AMMO",
+		"name": {
+			"str": "Queen Que Mana Cartridge [Magic] [MA]"
+		},
+		"description": "A special cartridge for the mana cartridge pistol Queen Que. This cartridge contains the magical power of a wizard.",
+		"count": 5,
+		"dispersion": 0,
+		"proportional": {
+			"range": 0.9,
+			"damage": 0.9,
+			"pierce": 3,
+			"recoil": 0.7
+		},
+		"extend": {
+			"effects": ["SHOT", "NEVER_MISFIRES"]
+		}
+	},
+	{
+		"id": "45_magic_fire",
+		"copy-from": "45_magic",
+		"type": "AMMO",
+		"name": {
+			"str": "Queen Que Mana Cartridge [Flame] [MA]"
+		},
+		"description": "This is a special cartridge for Queen Que, a pistol dedicated to mana cartridges. This cartridge contains the magical power of a kelvinist.",
+		"count": 5,
+		"dispersion": 0,
+		"proportional": {
+			"range": 0.8,
+			"damage": 0.7,
+			"recoil": 0.7
+		},
+		"extend": {
+			"effects": ["SHOT", "NEVER_MISFIRES", "INCENDIARY"]
+		}
+	},
+	{
+		"id": "45_magic_ice",
+		"copy-from": "45_magic",
+		"type": "AMMO",
+		"name": {
+			"str": "Queen Que Mana Cartridge [Ice] [MA]"
+		},
+		"description": "This is a special cartridge for Queen Que, a pistol dedicated to mana cartridges. This cartridge contains the magical power of a kelvinist.",
+		"count": 5,
+		"dispersion": 0,
+		"proportional": {
+			"range": 0.8,
+			"damage": 0.7,
+			"recoil": 0.7
+		},
+		"extend": {
+			"effects": ["SHOT", "NEVER_MISFIRES", "TANGLE"]
+		}
+	},
+	{
+		"id": "45_magic_thunder",
+		"copy-from": "45_magic",
+		"type": "AMMO",
+		"name": {
+			"str": "Queen Que Mana Cartridge [Lightning] [MA]"
+		},
+		"description": "A special cartridge for the mana cartridge pistol Queen Que. This cartridge contains the magic of the Storm Shaper.",
+		"count": 5,
+		"dispersion": 0,
+		"proportional": {
+			"range": 0.8,
+			"damage": 0.7,
+			"recoil": 0.7
+		},
+		"extend": {
+			"effects": ["SHOT", "NEVER_MISFIRES", "BOUNCE", "LIGHTNING"]
+		}
+	},
+	{
+		"id": "45_magic_earth",
+		"copy-from": "45_magic",
+		"type": "AMMO",
+		"name": {
+			"str": "Queen Que Mana Cartridge [Ground] [MA]"
+		},
+		"description": "This is a special cartridge for Queen Que, a pistol for mana cartridges. This cartridge contains the magical power of the Earth Shaper.",
+		"count": 5,
+		"dispersion": 0,
+		"proportional": {
+			"range": 0.8,
+			"damage": 0.7,
+			"recoil": 0.7
+		},
+		"extend": {
+			"effects": ["SHOT", "NEVER_MISFIRES", "CUSTOM_EXPLOSION"]
+		},
+		"explosion": {
+			"power": 1,
+			"distance_factor": 0.002,
+			"shrapnel": 1
+		},
+		"shrapnel": {
+			"casing_mass": 20,
+			"fragment_mass": 0.002
+		}
+	},
+	{
+		"id": "45_magic_wood",
+		"copy-from": "45_magic",
+		"type": "AMMO",
+		"name": {
+			"str": "Queen Que Mana Cartridge [Thu] [MA]"
+		},
+		"description": "A special cartridge for the mana cartridge pistol Queen Que. This cartridge contains the magical power of the druid.",
+		"count": 5,
+		"dispersion": 0,
+		"proportional": {
+			"range": 0.8,
+			"damage": 0.7,
+			"recoil": 0.7
+		},
+		"extend": {
+			"effects": ["SHOT", "NEVER_MISFIRES", "BLINDS_EYES"]
+		}
+	}
+]

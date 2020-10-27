@@ -1,0 +1,15 @@
+[{
+	"id": "45_magic_speedloader6",
+	"type": "MAGAZINE",
+	"name": "Queen Que exclusive speed loader [MA]",
+	"description": "This is the speed loader of Queen Que, a pistol dedicated to mana cartridge bullets. You can use it to reload quickly.",
+	"weight": "64 g",
+	"volume": "250 ml",
+	"price": 600,
+	"material": "steel",
+	"symbol": "#",
+	"color": "light_gray",
+	"ammo_type": "45_magic",
+	"capacity": 6,
+	"flags": ["SPEEDLOADER"]
+}]

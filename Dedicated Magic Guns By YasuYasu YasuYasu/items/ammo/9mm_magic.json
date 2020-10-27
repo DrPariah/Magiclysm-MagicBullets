@@ -1,0 +1,149 @@
+[{
+		"id": "9x19_magic",
+		"type": "AMMO",
+		"name": {
+			"str": "Tria Mana Cartridge [MA]"
+		},
+		"description": "Pistol for mana cartridge Tria's exclusive cartridge. This cartridge contains magical power.",
+		"weight": "8 g",
+		"volume": "250 ml",
+		"price": 140,
+		"price_postapoc": 4000,
+		"material": ["brass", "powder"],
+		"symbol": "=",
+		"color": "light_gray",
+		"count": 5,
+		"stack_size": 5,
+		"ammo_type": "9x19_magic",
+		"range": 16,
+		"damage": 22,
+		"pierce": 3,
+		"dispersion": 30,
+		"recoil": 700,
+		"effects": ["COOKOFF"]
+	},
+	{
+		"id": "9x19_magic_magus",
+		"copy-from": "9x19_magic",
+		"type": "AMMO",
+		"name": {
+			"str": "Tria's exclusive mana cartridge [Magic] [MA]"
+		},
+		"description": "Pistol for mana cartridge Tria's exclusive cartridge. This cartridge contains the magical power of a wizard.",
+		"count": 5,
+		"dispersion": 0,
+		"proportional": {
+			"range": 0.9,
+			"damage": 0.9,
+			"pierce": 3,
+			"recoil": 0.7
+		},
+		"extend": {
+			"effects": ["SHOT", "NEVER_MISFIRES"]
+		}
+	},
+	{
+		"id": "9x19_magic_fire",
+		"copy-from": "9x19_magic",
+		"type": "AMMO",
+		"name": {
+			"str": "Tria Mana Cartridge [Flame] [MA]"
+		},
+		"description": "Pistol for mana cartridge Tria's exclusive cartridge. This cartridge contains the magical power of a kelvinist.",
+		"count": 5,
+		"dispersion": 0,
+		"proportional": {
+			"range": 0.8,
+			"damage": 0.7,
+			"recoil": 0.7
+		},
+		"extend": {
+			"effects": ["SHOT", "NEVER_MISFIRES", "INCENDIARY"]
+		}
+	},
+	{
+		"id": "9x19_magic_ice",
+		"copy-from": "9x19_magic",
+		"type": "AMMO",
+		"name": {
+			"str": "Tria Mana Cartridge [Ice] [MA]"
+		},
+		"description": "Pistol for mana cartridge Tria's exclusive cartridge. This cartridge contains the magical power of a kelvinist.",
+		"count": 5,
+		"dispersion": 0,
+		"proportional": {
+			"range": 0.8,
+			"damage": 0.7,
+			"recoil": 0.7
+		},
+		"extend": {
+			"effects": ["SHOT", "NEVER_MISFIRES", "TANGLE"]
+		}
+	},
+	{
+		"id": "9x19_magic_thunder",
+		"copy-from": "9x19_magic",
+		"type": "AMMO",
+		"name": {
+			"str": "Tria Mana Cartridge [Lightning] [MA]"
+		},
+		"description": "Pistol for mana cartridge Tria's exclusive cartridge. This cartridge contains the magical power of Storm Shaper.",
+		"count": 5,
+		"dispersion": 0,
+		"proportional": {
+			"range": 0.8,
+			"damage": 0.7,
+			"recoil": 0.7
+		},
+		"extend": {
+			"effects": ["SHOT", "NEVER_MISFIRES", "BOUNCE", "LIGHTNING"]
+		}
+	},
+	{
+		"id": "9x19_magic_earth",
+		"copy-from": "9x19_magic",
+		"type": "AMMO",
+		"name": {
+			"str": "Tria Mana Cartridge [Ground] [MA]"
+		},
+		"description": "Pistol for mana cartridge Tria's exclusive cartridge. This cartridge contains the magical power of the Earth Shaper.",
+		"count": 5,
+		"dispersion": 0,
+		"proportional": {
+			"range": 0.8,
+			"damage": 0.7,
+			"recoil": 0.7
+		},
+		"extend": {
+			"effects": ["SHOT", "NEVER_MISFIRES", "CUSTOM_EXPLOSION"]
+		},
+		"explosion": {
+			"power": 1,
+			"distance_factor": 0.002,
+			"shrapnel": 1
+		},
+		"shrapnel": {
+			"casing_mass": 20,
+			"fragment_mass": 0.002
+		}
+	},
+	{
+		"id": "9x19_magic_wood",
+		"copy-from": "9x19_magic",
+		"type": "AMMO",
+		"name": {
+			"str": "Tria Mana Cartridge [Thu] [MA]"
+		},
+		"description": "Mana Cartridge Handgun Tria's Special Cartridge. This cartridge contains the magic of Druids.",
+		"count": 5,
+		"dispersion": 0,
+		"proportional": {
+			"range": 0.8,
+			"damage": 0.7,
+			"recoil": 0.7
+		},
+		"extend": {
+			"effects": ["SHOT", "NEVER_MISFIRES", "BLINDS_EYES"]
+		}
+	}
+]

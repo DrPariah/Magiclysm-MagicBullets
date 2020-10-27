@@ -1,0 +1,15 @@
+[{
+	"id": "22_magic_speedloader8",
+	"type": "MAGAZINE",
+	"name": "Speed loader for Woonum [MA]",
+	"description": "This is the speed loader for the mana cartridge pistol Woonum. You can use it to reload quickly.",
+	"weight": "64 g",
+	"volume": "250 ml",
+	"price": 600,
+	"material": "steel",
+	"symbol": "#",
+	"color": "light_gray",
+	"ammo_type": "22_magic",
+	"capacity": 8,
+	"flags": ["SPEEDLOADER"]
+}]

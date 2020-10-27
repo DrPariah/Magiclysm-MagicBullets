@@ -1,0 +1,33 @@
+ {
+    "id": "magic_revolver_ver2",
+    "copy-from": "pistol_revolver",
+    "looks_like": "sw_619",
+    "type": "GUN",
+    "name": "Mana Cartridge Handgun Duo [MA]",
+    "extend": {"flags": ["MAGIC_FOCUS"]},
+    "name_plural": "magic_revolver_ver1",
+    "description": "A duo of mana cartridge bullet-only pistols designed for wizards. As your skills grow, you can now use mana cartridges with larger calibers than Woonum.",,
+    "weight": "907 g",
+    "volume": "500 ml",
+    "price": 22400,
+    "to_hit": -2,
+    "bashing": 9,
+    "material": ["steel", "wood"],
+    "color": "dark_gray",
+    "ammo": "38_magic",
+    "dispersion": 480,
+    "durability": 8,
+    "clip_size": 6,
+    "magazines": [["38_magic", ["38_magic_speedloader6"]]],
+    "valid_mod_locations": [
+      ["accessories", 2],
+      ["barrel", 1],
+      ["bore", 1],
+      ["grip", 1],
+      ["mechanism", 4],
+      ["rail", 1],
+      ["sights", 1],
+      ["stock", 1],
+      ["underbarrel", 1]
+    ]
+  }
